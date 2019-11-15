@@ -1,9 +1,15 @@
-# [Project Idea] Alarm Clock
+* Take me to [Alarm Clock](#alarmclock)
+* Take me to [Sound Board](#soundboard)
+* Take me to [Turn Based RPG](#turn-rpg)
+
+
+# <a name="alarm-clock">Alarm Clock</a>
 Make a program that accepts command line arguments for what time to go off, and when it does it should launch a You tube video in your browser that will start playing.
 
 The program should read in a text file that contains URLs to different Youtube videos and will randomly choose one and launch it. My command line args were in the form of --hour <hour> --minute <minute> --<pm/am> but you should do whatever you feel is easiest or most convenient for you.
 
-# Soundboard (x post r/ learn python)
+
+# <a name="soundboard">Sound Board</a>
 As the title says we will be making a soundboard that has a gui and a multitude (more than one) of song clips. Any package is allowed and this will be a great intro to basic GUI building.
 
 *Bonus points if you: Somehow manage to use Snack (I couldn't for the life of me), can multi-thread a stop button and/or explain to me why the audio quality was terrible when pygame was used (on multiple devices)
@@ -96,7 +102,7 @@ December has 31 days.
 
 The program should have two parallel arrays: a 12-element String array that is initialized with the names of the months, and a 12-element Integer array that is initialized with the number of days in each month. To produce the output specified, use a loop to step through the arrays getting the name of a month and the number of days in that month.
 
-# [Project] Turn Based RPG
+# [Project] <a name="turn-rpg">Turn Based RPG</a>
 I'm remaking this post because the last RPG project is archived So for this code, the basic principles of RPG apply, so the code should contain:
 
 A random encounter generator
